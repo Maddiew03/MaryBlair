@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+   
+    background: radial-gradient(circle, rgb(4, 4, 41) 0%, rgb(52, 42, 148) 100%);
+    margin-left: 2em;
+    margin-right: 2em;
+    
+    
+    
+}
+
+img {
+    width: calc(100% );
+}
+

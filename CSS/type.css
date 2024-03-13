@@ -1,0 +1,19 @@
+h1{
+    
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vw;
+   
+    text-align: center;
+    padding-top: 8%;
+}
+
+h1, p{
+    color: color-mix(in srgb, var(--pink) 50%, var( --yellow)50%);
+}
+
+:is(h1,p):has(span){
+    color: color-mix(in srgb, var(--pink) 20%, var( --yellow)80%);
+
+}
