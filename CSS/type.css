@@ -8,7 +8,7 @@ h1{
     text-align: center;
     padding-top: 8%;
 }
-h2{
+h2, a{
     font-family: "Cookie", cursive;
     font-weight: 400;
     font-style: normal;
@@ -24,7 +24,7 @@ ul{
     text-align: center;
     
 }
-h1, p,h2, ul{
+h1, p,h2, a, ul{
     color: color-mix(in srgb, var(--pink) 50%, var( --yellow)50%);
 }
 

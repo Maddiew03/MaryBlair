@@ -184,3 +184,7 @@ p{
 .wrap p {
     padding-top: 0;
 }
+.images{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
